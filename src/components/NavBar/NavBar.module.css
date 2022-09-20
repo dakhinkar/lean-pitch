@@ -1,0 +1,30 @@
+.navContainer{
+    width: 95%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between; 
+   align-items: center;
+   /* background-color: aqua; */
+   height: 4rem;
+   font-size: 1.2rem;
+   color: white;
+   padding: 1.5rem;
+}
+.detailsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.detailsContainer a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.subcribe{
+   background-color: red;
+   font-weight: 500;
+   padding: 15px 15px; 
+   align-items: center;
+   vertical-align: middle;
+}

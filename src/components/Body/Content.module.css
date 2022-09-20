@@ -1,0 +1,65 @@
+
+.container{
+    width: 75%;
+    height: 90%;
+    padding: 1rem;
+    color: white;
+    outline: 5px solid yellow;
+}
+.container p{
+    margin: 1rem 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.container button{
+    
+    padding: 0.5rem 2rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 40px;
+    background-color: red;
+}
+
+
+
+/* Aboutus  */
+.heading{
+    text-align: center;
+    font-size: 2.5rem;
+    color: yellow;
+    font-weight: 700;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1rem;
+}
+.details p{
+    font-size: 1.2rem;
+    text-align: left;
+}
+.leftside{
+    width: 60%;
+    margin-left: 20px;
+}
+.leftside .subHeading{
+    font-size: 1.9rem;
+    margin-left: 20px;
+}
+.rightside{
+    width: 20rem;
+}
+.details aside img{
+    width: 20rem;
+    height: 20rem;
+}
+.aboutAction button{
+    background-color: black;
+    border: 1px solid white;
+    font-weight: 100;
+}
+
+ button svg {
+     margin-left: 10px;
+ }

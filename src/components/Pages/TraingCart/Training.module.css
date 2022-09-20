@@ -1,0 +1,59 @@
+
+.cartContiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+   
+}
+
+.courseContainer{
+    width: 14rem;
+    height: 14rem;
+    
+     display: flex;
+     /* background-color:  rgb(63, 103, 122) !important ; */
+     flex-direction: column;
+     gap: 1rem;
+     border-radius: 15px;
+}
+.logoInfoL{
+    padding: 0.5rem ;
+    margin-bottom: 10px;
+}
+.logoInfoL img{
+    width: 50px;
+    height: 50px;
+    /* padding: 1rem; */
+}
+.heading{
+    /* margin-top: 1.3rem; */
+    font-size: 1rem;
+    font-weight: 700;
+    height: 40px;
+    margin-top: 15px;
+    padding: 0 15px;
+}
+.couserDetails{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.couserDetails details{
+    font-size: 8px;
+}
+.dateInfo{
+    font-weight: 700;
+}
+.action{
+    align-self: center;
+    /* width: 100%; */
+}
+.action button{
+    width: 8rem;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+}
